@@ -82,8 +82,8 @@ Voidstone_x:=Screen_middle + 10*ScaleH
 Voidstone_y:=920*ScaleH
 Sextant_x:=430*ScaleH
 Sextant_y:=390*ScaleH
-Compass_x:=160*ScaleH
-Compass_y:=600*ScaleH
+Compass_x:=500*ScaleH
+Compass_y:=670*ScaleH
 
 ; StackedDecks-Specific Coordinates
 Drop_x:= 280*ScaleH

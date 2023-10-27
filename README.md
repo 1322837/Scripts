@@ -65,7 +65,7 @@ F7 = Rolls a quad tab of compasses
 2. Will roll up to quad tab of compasses
 3. Just open stash and altas window, dont move atlas.
 4. Make sure an empty quad tab is to the left of currency tab
-5. Compass should be in top-left corner
+5. Compass should be in bottom-right corner if the currency tab lower bar
 6. Configure in settings.ahk, write which sextant to keep with REGEX
 
 # Stacked Decks
