@@ -13,7 +13,8 @@ Random, rand, 10, 15
 base_X:= 0
 base_Y:= 0
 MouseGetPos, base_X,base_Y
-while (getkeystate("F7", "P")) {
+while (getkeystate("F7", "P")) 
+{
     PixelSearch, Px, Py, Inventory_x1, Inventory_y1, Inventory_x2, Inventory_y2, 0x6d768c, 3, Fast
     MouseMove, Px, Py
     Sleep, rand_StackedDecks

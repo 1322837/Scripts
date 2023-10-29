@@ -15,7 +15,8 @@ base_X:= 0
 base_Y:= 0
 MouseGetPos, base_X,base_Y
 SendEvent {Control down}
-while (getkeystate("F2", "P")) {
+while (getkeystate("F2", "P")) 
+{
     x_coord:= base_X + buf_x * Inv_space
     y_coord:= base_Y + buf_y * Inv_space
     Sleep rand_Main / 3
@@ -24,10 +25,12 @@ while (getkeystate("F2", "P")) {
     Click, up
     Sleep rand_Main / 3
     buf_y:=buf_y+1
-    if (buf_y = 5) {
+    if (buf_y = 5) 
+    {
         buf_x:=buf_x+1
         buf_y:=0
-        if (buf_x = 12) {
+        if (buf_x = 12) 
+        {
         buf_x:=0
         Break
         }
@@ -54,7 +57,8 @@ base_X:= 0
 base_Y:= 0
 MouseGetPos, base_X,base_Y
 SendEvent {Control down}
-while (getkeystate("F3", "P")) {
+while (getkeystate("F3", "P")) 
+{
     x_coord:= base_X + buf_x * Inv_space
     y_coord:= base_Y + buf_y * Inv_space
     Sleep rand_Main / 3
@@ -63,7 +67,8 @@ while (getkeystate("F3", "P")) {
     Click, up
     Sleep rand_Main / 3
     buf_y:=buf_y+1
-    if (buf_y = 12) {
+    if (buf_y = 12) 
+    {
         buf_x:=buf_x+1
         buf_y:=0
     }
@@ -86,7 +91,8 @@ y_coord:= 0
 base_X:= 0
 base_Y:= 0
 MouseGetPos, base_X,base_Y
-while (getkeystate("F4", "P")) {
+while (getkeystate("F4", "P")) 
+{
     x_coord:= base_X + buf_x * Inv_space / 2
     y_coord:= base_Y + buf_y * Inv_space / 2
     SendEvent {Control down}
@@ -97,7 +103,8 @@ while (getkeystate("F4", "P")) {
     Sleep rand_Main / 3
     SendEvent {Control up}
     buf_y:=buf_y+1
-    while (buf_y = 24) {
+    if (buf_y = 24) 
+    {
         buf_x:=buf_x+1
         buf_y:=0
     }
@@ -115,9 +122,11 @@ SetMouseDelay, 0
 MouseGetPos, base_X,base_Y
 BlockInput On
 SendInput {LControl down}
-while (getkeystate("F5", "P")) {
+while (getkeystate("F5", "P")) 
+{
     PixelSearch, Px, Py, Stash_coord_x1, Stash_coord_y2, Stash_coord_x2, Stash_coord_y1, 0x77b4e7, 2, Fast
-    if (ErrorLevel) {
+    if (ErrorLevel) 
+    {
         Break
     }
     Sleep rand_Main / 3

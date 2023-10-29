@@ -47,10 +47,12 @@ outer:
     		Click, left
     		Sleep rand_SextantRolling
     		buf_y:=buf_y+1
-    		if (buf_y = 5) {
+    		if (buf_y = 5) 
+    		{
         		buf_x:=buf_x+1
         		buf_y:=0
-        		if (buf_x = 12) {
+        		if (buf_x = 12) 
+        		{
         		buf_x:=0
         		Break outer
         		}	

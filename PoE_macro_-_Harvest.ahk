@@ -15,7 +15,7 @@ x_coord:= 0
 y_coord:= 0
 SendEvent {Control down}
 Loop 60
-{
+	{
 	Clipboard:=
 	x_coord:= Inv_x + buf_x * Inv_space
     y_coord:= Inv_y + buf_y * Inv_space
@@ -77,7 +77,7 @@ Loop 60
         	Break	
         	}
 		}
-}
+	}
 }
 SendEvent {Control up}
 Return

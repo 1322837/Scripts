@@ -27,7 +27,8 @@ SendEvent {LControl down}
 Loop
 {
     PixelSearch, Px, Py, Stash_coord_x1, Stash_coord_y2, Stash_coord_x2, Stash_coord_y1, 0x77b4e7, 2, Fast
-        if (ErrorLevel) {
+        if (ErrorLevel) 
+        {
             Break
         }
     Sleep rand_MapRolling
@@ -59,10 +60,12 @@ Loop
         break
     Sleep rand_MapRolling
     buf_y:=buf_y+1
-    if (buf_y = 5) {
+    if (buf_y = 5) 
+        {
         buf_x:=buf_x+1
         buf_y:=0
         if (buf_x = 12)
+        {
         break
         }
 }
@@ -90,10 +93,12 @@ Loop
         break
     Sleep rand_MapRolling
     buf_y2:=buf_y2+1
-    if (buf_y2 = 5) {
+    if (buf_y2 = 5) 
+        {
         buf_x2:=buf_x2+1
         buf_y2:=0
         if (buf_x2 = 12)
+        {
         break
         }
 }
@@ -116,10 +121,12 @@ Loop
         break
     Sleep rand_MapRolling
     buf_y3:=buf_y3+1
-    if (buf_y3 = 5) {
+    if (buf_y3 = 5) 
+        {
         buf_x3:=buf_x3+1
         buf_y3:=0
         if (buf_x3 = 12)
+        {
         break
         }
 }

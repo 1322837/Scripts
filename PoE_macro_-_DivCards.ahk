@@ -16,7 +16,8 @@ Py1:=0
 Px2:=0
 Py2:=0
 MouseGetPos, base_X,base_Y
-while (getkeystate("F7", "P")) {
+while (getkeystate("F7", "P")) 
+    {
     PixelSearch, Px1, Py1, Inventory_x1, Inventory_y1, Inventory_x2, Inventory_y2, 0x8B6400, 0, Fast
     MouseMove %Px1%, %Py1%
     Send, {Control down}

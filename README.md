@@ -40,7 +40,7 @@ F7 = Reroll Essences/Delirium Orbs/Scarabs with Harvest
 2. Will stop if runs out of juice/stuff to change.
 3. Configure in Settings.ahk, write which scarabs/essences/deli orbs you want with REGEX.
 
-# Map Rolling
+# Map Rolling Alch
 F7 = Rerolls all maps highlighted with regex
 
 **Notes**:
@@ -48,6 +48,12 @@ F7 = Rerolls all maps highlighted with regex
 2. Currency tab with alch&scours should be to the left of your tab with maps.
 3. Will take up to 60 highlighted maps from the current tab, use alc&scour on them, and put them back.
 4. Dont use if it highlights more than 60 maps
+
+# Map Rolling Chaos
+F7 = Rerolls all maps highlighted with regex
+
+**Notes**:
+W.I.P
 
 # Remanant
 Tilde = Corrupt essence with a Remanant
